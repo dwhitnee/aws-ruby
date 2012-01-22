@@ -1,0 +1,11 @@
+gem install aws-sdk
+
+cd /usr/lib/ruby/user-gems/1.8/gems/aws-sdk-1.3.2/
+Explore
+
+Create an IAM user with only Dynamo access and paste the secret key in.
+(this should go in a aws.yml)
+
+Create a Table at https://console.aws.amazon.com/dynamodb
+
+Play with dyanamo.db
