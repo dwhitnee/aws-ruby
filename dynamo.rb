@@ -1,4 +1,8 @@
 #!/usr/bin/ruby
+#----------------------------------------------------------------------#
+#  Simple first Dynamo ruby script that creates and lists Items in a table
+#----------------------------------------------------------------------
+
 
 require 'rubygems'
 require 'aws-sdk'
