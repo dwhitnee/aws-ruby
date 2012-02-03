@@ -54,6 +54,7 @@ setup()
 $dynamo = AWS::DynamoDB.new()
 
 $customers = $dynamo.tables['Customers']
+# Why do I need to say this again?  I already told you!
 $customers.hash_key = [:id, :string]
 
 createUser( 2, {
